@@ -68,6 +68,7 @@ BOOL CALLBACK DlgProc(HWND hWnd, UINT mes, WPARAM wp, LPARAM lp)
 		hProcName = GetDlgItem(hWnd, IDC_EDIT1);
 		hProcList = GetDlgItem(hWnd, IDC_LIST1);
 		hProcList = GetDlgItem(hWnd, IDC_LIST2);
+		hProcList = GetDlgItem(hWnd, IDC_LIST3);
 		hStatID = GetDlgItem(hWnd, IDC_EDIT2);
 		ShowProcList(hProcList);
 		hTime = GetDlgItem(hWnd, IDC_EDIT3);
